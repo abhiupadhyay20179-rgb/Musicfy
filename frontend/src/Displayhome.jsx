@@ -39,10 +39,10 @@ const Displayhome = () => {
               <img 
                 src={song.image} 
                 alt={song.title || song.name} 
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" 
+                className="w-full h-full object-cover" 
               />
-              <div className="absolute right-2 bottom-2 bg-[#1db954] w-9 h-9 sm:w-12 sm:h-12 text-black rounded-full opacity-90 sm:opacity-0 sm:translate-y-2 sm:group-hover:opacity-100 sm:group-hover:translate-y-0 transition-all duration-300 ease-out shadow-xl hover:scale-105 hover:bg-[#1ed760] flex items-center justify-center">
-                <img src={playIcon} alt="Play Icon" className="w-4 h-4 sm:w-6 sm:h-6" />
+              <div className="hidden sm:flex absolute right-2 bottom-2 bg-[#1db954] w-12 h-12 text-black rounded-full opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-out shadow-xl hover:scale-105 hover:bg-[#1ed760] items-center justify-center">
+                <img src={playIcon} alt="Play Icon" className="w-6 h-6" />
               </div>
             </div>
             <div className="flex flex-col space-y-0.5 sm:space-y-1">
@@ -68,10 +68,10 @@ const Displayhome = () => {
                 <img 
                   src={artist.image} 
                   alt={artist.name} 
-                  className="w-full h-full object-cover rounded-full group-hover:scale-105 transition-transform duration-300" 
+                  className="w-full h-full object-cover rounded-full" 
                 />
-                <div className="absolute right-1 bottom-1 sm:right-2 sm:bottom-2 bg-[#1db954] w-8 h-8 sm:w-11 sm:h-11 text-black rounded-full opacity-90 sm:opacity-0 sm:translate-y-2 sm:group-hover:opacity-100 sm:group-hover:translate-y-0 transition-all duration-300 ease-out shadow-xl hover:scale-105 hover:bg-[#1ed760] flex items-center justify-center">
-                  <img src={playIcon} alt="Play Icon" className="w-3.5 h-3.5 sm:w-5 sm:h-5" />
+                <div className="hidden sm:flex absolute right-2 bottom-2 bg-[#1db954] w-11 h-11 text-black rounded-full opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-out shadow-xl hover:scale-105 hover:bg-[#1ed760] items-center justify-center">
+                  <img src={playIcon} alt="Play Icon" className="w-5 h-5" />
                 </div>
               </div>
               <div className="flex flex-col space-y-0.5 sm:space-y-1 text-center sm:text-left">
@@ -98,10 +98,10 @@ const Displayhome = () => {
                 <img 
                   src={album.image} 
                   alt={album.name} 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" 
+                  className="w-full h-full object-cover" 
                 />
-                <div className="absolute right-2 bottom-2 bg-[#1db954] w-9 h-9 sm:w-11 sm:h-11 text-black rounded-full opacity-90 sm:opacity-0 sm:translate-y-2 sm:group-hover:opacity-100 sm:group-hover:translate-y-0 transition-all duration-300 ease-out shadow-xl hover:scale-105 hover:bg-[#1ed760] flex items-center justify-center">
-                  <img src={playIcon} alt="Play Icon" className="w-4 h-4 sm:w-5 sm:h-5" />
+                <div className="hidden sm:flex absolute right-2 bottom-2 bg-[#1db954] w-11 h-11 text-black rounded-full opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-out shadow-xl hover:scale-105 hover:bg-[#1ed760] items-center justify-center">
+                  <img src={playIcon} alt="Play Icon" className="w-5 h-5" />
                 </div>
               </div>
               <div className="flex flex-col space-y-0.5 sm:space-y-1">

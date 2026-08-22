@@ -38,7 +38,6 @@ const Albumcontent = () => {
 
   return (
     <div className='w-full min-h-full rounded-md pb-28 sm:pb-32 overflow-x-hidden'>
-      {/* Hero Header Banner */}
       <div 
         className='w-full min-h-[260px] sm:min-h-[300px] md:min-h-[340px] rounded-t-md p-4 sm:p-6 md:p-8 flex flex-col justify-end transition-all'
         style={{
@@ -46,8 +45,7 @@ const Albumcontent = () => {
         }}
       >
         <div className='flex flex-col sm:flex-row items-center sm:items-end gap-5 sm:gap-6 md:gap-8'>
-          {/* Album Cover Art */}
-          <div className='w-40 h-40 min-[420px]:w-48 min-[420px]:h-48 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-60 lg:h-60 shadow-2xl shadow-black/80 overflow-hidden hover:scale-[1.02] transition-transform duration-300 ease-out cursor-pointer rounded-md shrink-0 bg-[#282828]'>
+          <div className='w-40 h-40 min-[420px]:w-48 min-[420px]:h-48 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-60 lg:h-60 shadow-2xl shadow-black/80 overflow-hidden cursor-pointer rounded-md shrink-0 bg-[#282828]'>
             <img
               src={album.image}
               alt={album.name}
@@ -55,7 +53,6 @@ const Albumcontent = () => {
             />
           </div>
 
-          {/* Album Metadata */}
           <div className='flex flex-col items-center sm:items-start text-center sm:text-left min-w-0 flex-1'>
             <span className='text-xs sm:text-sm font-bold uppercase tracking-wider text-white/70'>
               Album
@@ -75,7 +72,6 @@ const Albumcontent = () => {
         </div>
       </div>
 
-      {/* Action Controls Bar */}
       <div className='flex items-center gap-4 sm:gap-6 px-4 sm:px-6 md:px-8 py-4'>
         <button
           onClick={handlePlay}
@@ -106,7 +102,6 @@ const Albumcontent = () => {
         </button>
       </div>
 
-      {/* Track List Header */}
       <div className='px-4 sm:px-6 md:px-8 mb-2'>
         <div className='flex items-center justify-between text-neutral-400 text-xs sm:text-sm font-medium pb-2 border-b border-white/10'>
           <div className='flex items-center gap-3 sm:gap-4'>
@@ -119,7 +114,6 @@ const Albumcontent = () => {
         </div>
       </div>
 
-      {/* Track List Items */}
       <div className='flex flex-col gap-1 px-2 sm:px-4 md:px-6'>
         {albumSongs.length > 0 ? (
           albumSongs.map((item, i) => {

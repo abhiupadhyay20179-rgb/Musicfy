@@ -71,7 +71,7 @@ const App = () => {
             ) : (
               <>
                 <Navbar />
-                <div className="flex grow gap-0.5 min-h-0">
+                <div className="flex grow gap-0.5 min-h-0 pb-16 sm:pb-20">
                   <Sidebar />
                   <Display />
                 </div>
