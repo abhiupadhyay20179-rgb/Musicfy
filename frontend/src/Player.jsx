@@ -19,7 +19,7 @@ const Player = () => {
   } = useContext(PlayerContext);
 
   return (
-    <div className='w-full h-16 sm:h-20 bg-[#121212] border-t border-[#282828] px-3 sm:px-4 flex items-center justify-between shrink-0 select-none z-40 relative'>
+    <div className='w-full h-16 sm:h-20 bg-[#121212] border-t border-[#282828] px-3 sm:px-4 flex items-center justify-between shrink-0 select-none z-40 relative pb-[env(safe-area-inset-bottom)]'>
       <div className='flex items-center gap-2.5 sm:gap-3.5 flex-1 min-w-0 md:w-[30%] md:flex-initial'>
         {track ? (
           <>

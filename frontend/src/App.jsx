@@ -29,7 +29,7 @@ const App = () => {
   };
 
   return (
-    <div className="h-screen w-full bg-black flex flex-col overflow-hidden">
+    <div className="h-screen h-[100dvh] w-full bg-black flex flex-col overflow-hidden">
       <ToastContainer position="top-right" autoClose={2000} theme="dark" />
 
       <Routes>

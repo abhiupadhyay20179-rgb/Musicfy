@@ -1,19 +1,20 @@
 @import "tailwindcss";
 
 
-html{
+html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
-body{
- background-color: black;
- overflow-y: auto; 
- margin: 0;
- padding: 0;
- display: flex;
- flex-direction: column;
- height: 100vh; 
- overflow: hidden; 
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar {
