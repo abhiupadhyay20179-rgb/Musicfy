@@ -7,9 +7,9 @@ import nextIcon from './assets/nextplayer.svg';
 import unmuteIcon from './assets/unmute.svg';
 import muteIcon from './assets/mute.svg';
 import shuffleIcon from './assets/shuffle.svg';
-import repeatIcon from './assets/reapet.svg';
+import repeatIcon from './assets/repeat.svg';
 import queueIcon from './assets/queue.svg';
-import { PlayerContext } from './Contex/PlayerContext';
+import { PlayerContext } from './context/PlayerContext';
 
 const Player = () => {
   const {

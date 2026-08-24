@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import logo from './assets/play.png';
-import { PlayerContext } from './Contex/PlayerContext';
+import { PlayerContext } from './context/PlayerContext';
 import { toast } from 'react-toastify';
 
 

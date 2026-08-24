@@ -11,7 +11,7 @@ import AddSong from './admin/pages/AddSong';
 import ListSong from './admin/pages/ListSong';
 import AddAlbum from './admin/pages/AddAlbum';
 import ListAlbum from './admin/pages/ListAlbum';
-import { PlayerContext } from './Contex/PlayerContext';
+import { PlayerContext } from './context/PlayerContext';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

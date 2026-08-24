@@ -33,7 +33,7 @@ app.use(express.json());
 
 // Health Check & Root Endpoints
 app.get('/', (req, res) => {
-  res.send('Spotify Backend API is running successfully!');
+  res.send('Musicfy Backend API is running successfully!');
 });
 
 app.get('/api/health', (req, res) => {

@@ -5,7 +5,7 @@ import pauseIcon from './assets/pause.svg';
 import miniPlusIcon from './assets/miniplus.svg';
 import dotdotIcon from './assets/dotdot.svg';
 import timeIcon from './assets/time.svg';
-import { PlayerContext } from './Contex/PlayerContext';
+import { PlayerContext } from './context/PlayerContext';
 
 const Content = () => {
   const { index } = useParams();
@@ -66,7 +66,7 @@ const Content = () => {
             <div className='flex items-center gap-2 text-xs sm:text-sm text-white/60 mt-1.5 font-normal'>
               <span>Musicfy</span>
               <span>•</span>
-              <span>{songs.duration || "3:00"} mins</span>
+              <span>{songs.duration || "3:00"}</span>
             </div>
           </div>
         </div>

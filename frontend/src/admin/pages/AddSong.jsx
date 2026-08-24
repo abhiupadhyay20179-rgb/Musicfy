@@ -38,7 +38,7 @@ const AddSong = () => {
         toast.error(response.data.message);
       }
     } catch (error) {
-      toast.error("Something went wrong " + error);
+      toast.error("Something went wrong: " + (error.response?.data?.message || error.message));
     } finally {
       setLoading(false);
     }
@@ -53,7 +53,7 @@ const AddSong = () => {
         toast.error("Failed to load albums");
       }
     } catch (error) {
-      toast.error("Something went wrong " + error);
+      toast.error("Something went wrong: " + (error.response?.data?.message || error.message));
     }
   };
 

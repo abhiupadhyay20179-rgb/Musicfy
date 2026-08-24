@@ -5,7 +5,7 @@ import playIcon from './assets/play.svg';
 import pauseIcon from './assets/pause.svg';
 import dotdotIcon from './assets/dotdot.svg';
 import timeIcon from './assets/time.svg';
-import { PlayerContext } from './Contex/PlayerContext';
+import { PlayerContext } from './context/PlayerContext';
 
 const Content2 = () => {
   const { index } = useParams();

@@ -15,7 +15,7 @@ const ListSong = () => {
         toast.error(response.data.message);
       }
     } catch (error) {
-      toast.error("Something went wrong"+error);
+      toast.error("Something went wrong: " + (error.response?.data?.message || error.message));
     }
   };
 
@@ -29,7 +29,7 @@ const ListSong = () => {
         toast.error(response.data.message);
       }
     } catch (error) {
-      toast.error("Something went wrong"+error);
+      toast.error("Something went wrong: " + (error.response?.data?.message || error.message));
     }
   };
 

@@ -2,8 +2,8 @@ import React, { useState, useContext } from "react";
 import { Link } from 'react-router-dom';
 import logo from './assets/play.png';
 import homeIcon from './assets/home.svg';
-import searchIcon from './assets/seach.svg';
-import { PlayerContext } from './Contex/PlayerContext';
+import searchIcon from './assets/search.svg';
+import { PlayerContext } from './context/PlayerContext';
 
 const Navbar = () => {
   const { token, setToken, songsData, playWithid, userData, audioRef, setPlayStatus } = useContext(PlayerContext);

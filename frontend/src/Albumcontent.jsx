@@ -5,7 +5,7 @@ import pauseIcon from './assets/pause.svg';
 import miniPlusIcon from './assets/miniplus.svg';
 import dotdotIcon from './assets/dotdot.svg';
 import timeIcon from './assets/time.svg';
-import { PlayerContext } from './Contex/PlayerContext';
+import { PlayerContext } from './context/PlayerContext';
 
 const Albumcontent = () => {
   const { index } = useParams();

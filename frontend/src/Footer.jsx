@@ -36,12 +36,12 @@ const Footer = () => {
             </div>
             
             <div className="flex flex-col space-y-3">
-              <h3 className="font-bold text-white text-base">Spotify Plans</h3>
+              <h3 className="font-bold text-white text-base">Musicfy Plans</h3>
               <Link to="" className="hover:text-white hover:underline">Premium Lite</Link>
               <Link to="" className="hover:text-white hover:underline">Premium Standard</Link>
               <Link to="" className="hover:text-white hover:underline">Premium Platinum</Link>
               <Link to="" className="hover:text-white hover:underline">Premium Student</Link>
-              <Link to="" className="hover:text-white hover:underline">Spotify Free</Link>
+              <Link to="" className="hover:text-white hover:underline">Musicfy Free</Link>
             </div>
           </div>
 

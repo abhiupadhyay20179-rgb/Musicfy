@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import logo from './assets/play.png';
-import { PlayerContext } from './Contex/PlayerContext';
+import { PlayerContext } from './context/PlayerContext';
 import { toast } from 'react-toastify';
 
 const Login = () => {
@@ -33,7 +33,7 @@ const Login = () => {
     <div className='w-full h-full bg-[#131212] pt-10 place-items-center text-amber-50 overflow-auto'>
       <div className='place-items-center'>
         <div className='place-items-center flex flex-col items-center'>
-          <img className="invert cursor-pointer w-18 h-14" src={logo} alt="Spotify logo" />
+          <img className="invert cursor-pointer w-18 h-14" src={logo} alt="Musicfy logo" />
           <span className="text-2xl font-bold">Musicfy</span>
         </div>
         <div className='text-white font-bold text-4xl mt-4'><h1>Welcome Back</h1></div>
