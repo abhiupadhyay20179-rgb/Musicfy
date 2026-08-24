@@ -57,7 +57,7 @@ const Displayhome = () => {
         ))}
       </div>
 
-      <h1 className="text-white text-xl sm:text-2xl hover:underline px-4 sm:px-8 mt-6 sm:mt-8 font-bold cursor-pointer inline-block">
+      {/* <h1 className="text-white text-xl sm:text-2xl hover:underline px-4 sm:px-8 mt-6 sm:mt-8 font-bold cursor-pointer inline-block">
         Popular artists
       </h1>
       <div className="flex gap-3 sm:gap-5 px-4 sm:px-8 my-3 sm:my-5 overflow-x-auto">
@@ -85,7 +85,7 @@ const Displayhome = () => {
             </div>
           </Link>
         ))}
-      </div>
+      </div> */}
 
       <h1 className="text-white text-xl sm:text-2xl hover:underline px-4 sm:px-8 mt-6 sm:mt-8 font-bold cursor-pointer inline-block">
         Popular Albums and singles

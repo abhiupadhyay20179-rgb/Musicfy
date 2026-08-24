@@ -15,11 +15,10 @@ const Display = () => {
           <Route index element={<Displayhome />} />
           <Route path="/home" element={<Displayhome />} />
           <Route path="/content/:index" element={<Content />} />
-          <Route path="/content2/:index" element={<Content2 />} />
           <Route path="/Albumcontent/:index" element={<Albumcontent />} />
         </Routes>
       </div>
-     
+
     </div>
   );
 };
